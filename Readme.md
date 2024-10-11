@@ -37,3 +37,34 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+
+  Navigate into the project directory:
+
+2. Navigate into the project directory:
+    ```bash
+    cd your-repo-name
+3. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    
+4. Run the app locally using Streamlit:
+    ```bash
+    streamlit run app.py
+
+
+  ## Project Structure 
+
+  .
+├── app.py                     # Main Streamlit app script
+├── data_cleaning_preprocessing.py  # Script for cleaning and preprocessing the data
+├── model_tuning.py            # Script for model training and hyperparameter tuning
+├── cleaned_train.csv          # Cleaned training dataset
+├── cleaned_test.csv           # Cleaned test dataset
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation (this file)
+
+
+
+
+
+
