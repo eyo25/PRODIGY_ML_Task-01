@@ -63,17 +63,6 @@ To run this project locally, follow these steps:
   ├── requirements.txt           # Python dependencies
   └── README.md                  # Project documentation (this file)
 
-## Steps
-1. Data Cleaning and Preprocessing:
-We begin by cleaning the raw training and test data. This includes:
-
-Dropping irrelevant or sparse columns (e.g., Id, Alley, PoolQC, Fence, etc.).
-Handling missing values:
-Numerical features are filled with the median.
-Categorical features are filled with the mode.
-Applying one-hot encoding to categorical variables.
-The data cleaning is handled in the data_cleaning_preprocessing.py script.
-
 
 
 
