@@ -53,15 +53,15 @@ To run this project locally, follow these steps:
 
 
   ## Project Structure 
-
+   ```bash
   .
-├── app.py                     # Main Streamlit app script
-├── data_cleaning_preprocessing.py  # Script for cleaning and preprocessing the data
-├── model_tuning.py            # Script for model training and hyperparameter tuning
-├── cleaned_train.csv          # Cleaned training dataset
-├── cleaned_test.csv           # Cleaned test dataset
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation (this file)
+  ├── app.py                     # Main Streamlit app script
+  ├── data_cleaning_preprocessing.py  # Script for cleaning and preprocessing the data
+  ├── model_tuning.py            # Script for model training and hyperparameter tuning
+  ├── cleaned_train.csv          # Cleaned training dataset
+  ├── cleaned_test.csv           # Cleaned test dataset
+  ├── requirements.txt           # Python dependencies
+  └── README.md                  # Project documentation (this file)
 
 
 
